@@ -1,0 +1,47 @@
+#outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid grey;
+  height: 500px;
+  width: 200px;
+  margin: auto;
+  background-color: black;
+  
+}
+#red {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  background-color: red;
+}
+#yellow {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  background-color: yellow;
+  
+}
+#green {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  background-color: green;
+  
+}
+#red, #green, #yellow {
+  border: 3px solid grey;
+}
+
+#stand {
+  height: 220px;
+  width: 90px;
+  background-color: black;
+  margin: auto;
+  border: 3px solid grey;
+}
+
+h1 {
+  text-decoration: underline;
+}
